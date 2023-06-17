@@ -6,7 +6,9 @@ return require('packer').startup(function(use)
 
     use 'ThePrimeagen/vim-be-good'
 
-    use 'Shatur/neovim-ayu'
+    -- use 'Shatur/neovim-ayu'
+
+    use { "catppuccin/nvim", as = "catppuccin" }
 
     use 'nvim-treesitter/nvim-treesitter'
 
@@ -40,5 +42,7 @@ return require('packer').startup(function(use)
             {'L3MON4D3/LuaSnip'},     -- Required
         }
     }
+
+    use 'ray-x/aurora'
 
 end)

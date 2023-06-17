@@ -79,6 +79,16 @@ _G.packer_plugins = {
     path = "/home/miyama/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  aurora = {
+    loaded = true,
+    path = "/home/miyama/.local/share/nvim/site/pack/packer/start/aurora",
+    url = "https://github.com/ray-x/aurora"
+  },
+  catppuccin = {
+    loaded = true,
+    path = "/home/miyama/.local/share/nvim/site/pack/packer/start/catppuccin",
+    url = "https://github.com/catppuccin/nvim"
+  },
   ["cmp-nvim-lsp"] = {
     loaded = true,
     path = "/home/miyama/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
@@ -103,11 +113,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/miyama/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
-  },
-  ["neovim-ayu"] = {
-    loaded = true,
-    path = "/home/miyama/.local/share/nvim/site/pack/packer/start/neovim-ayu",
-    url = "https://github.com/Shatur/neovim-ayu"
   },
   ["nvim-cmp"] = {
     loaded = true,
