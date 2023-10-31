@@ -64,7 +64,9 @@ return require('packer').startup(function(use)
     use {'nvim-orgmode/orgmode', config = function()
         require('orgmode').setup{}
     end
-}
+    }
+
+    use 'lervag/vimtex'
 
     if packer_bootstrap then
 	require('packer').sync()
